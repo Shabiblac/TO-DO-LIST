@@ -41,7 +41,7 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
--[ ] **Display task.**
+- [ ] **Display task.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,10 +164,10 @@ npm run build
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add dark mood toggle**
--[ ] **Add tasks to list.**
--[ ] **Check completed task.**
--[ ] **Edit tasks.**
--[ ] **Delete task.**
+- [ ] **Add tasks to list.**
+- [ ] **Check completed task.**
+- [ ] **Edit tasks.**
+- [ ] **Delete task.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
