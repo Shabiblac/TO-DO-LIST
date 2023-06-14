@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(13deg, #000, #fff);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.to-do-app {
+  width: 100%;
+  max-width: 540px;
+  background: whitesmoke;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.row i {
+  margin-top: 12px;
+}
+
+.title h2 i {
+  width: 40px;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+input[type="text"] {
+  background: whitesmoke;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.to-do {
+  margin-top: 50px;
+}
+
+.list {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list input[type="text"] {
+  width: 100%;
+}
+
+.close {
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+}
+
+.close p {
+  font-size: 30px;
+}
+
+.close:hover {
+  color: black;
+  cursor: pointer;
+}
